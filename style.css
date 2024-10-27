@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* estruturado */
+  /*
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; 
+  */
+  /* Color Image Repeat Position/size "Shorthand" */
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: "Inter", serif;
+  color: #ffffff;
+}
+
+.container {
+  width: 360px;
+  height: 712px;
+  margin: 56px auto 0;
+}
+
+.profile {
+  padding: 24px;
+  text-align: center;
+}
+
+.profile img {
+  display: block;
+  width: 150px;
+  margin: auto;
+
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+}
